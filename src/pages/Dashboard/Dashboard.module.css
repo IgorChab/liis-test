@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 26px;
+}
+
+.aside {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #424242;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.checkInDate {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #41522E;
+}
+
+.slider {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.favouritesInfo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-shrink: 1;
+    height: 560px;
+    padding-right: 20px;
+}
+
+.list::-webkit-scrollbar {
+    width: 2px;
+    background: #E7E7E7;
+    border-radius: 2px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    width: 2px;
+    background: #41522E;
+    border-radius: 2px;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background: rgba(135, 135, 135, 0.2);
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

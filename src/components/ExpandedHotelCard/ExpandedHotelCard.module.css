@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(65, 82, 46, 0.05);
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    flex-shrink: 0;
+}

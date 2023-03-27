@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 9px;
+    background: #FFFFFF;
+    border: 1px solid #41522E;
+    border-radius: 4px;
+    user-select: none;
+    color: #41522E;
+    box-sizing: content-box;
+}
+
+.disable {
+    border: 1px solid #E5E5E5;
+    color: #99A0A3;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.47px;
+}
+
+.firstSelect {
+    filter: opacity(0.3) drop-shadow(0 0 0 #41522e4d);
+}
+
+.lastSelect {
+    transform: scale(1, -1);
+}
+
+.selectAsc {
+    filter: drop-shadow(0 0 0 #41522E);
+}
+
+.selectDsc {
+    filter: drop-shadow(0 0 0 #41522E);
+}
+
+.notSelect {
+    filter: opacity(0.3) drop-shadow(0 0 0 #41522e4d);
+}

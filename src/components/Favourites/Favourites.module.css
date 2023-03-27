@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    height: 312px;
+    padding-right: 20px;
+    overflow-y: auto;
+}
+
+.list::-webkit-scrollbar {
+    width: 2px;
+    background: #E7E7E7;
+    border-radius: 2px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    width: 2px;
+    background: #41522E;
+    border-radius: 2px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background: rgba(135, 135, 135, 0.2);
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

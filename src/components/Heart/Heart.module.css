@@ -1,0 +1,23 @@
+.heart path:hover {
+    cursor: pointer;
+    fill: #EBEBEB;
+    transition: 0.3s;
+}
+
+.heart path {
+    transition: 0.3s;
+}
+
+.heart path:active {
+    transition: 0.3s;
+    fill: #E55858;
+    stroke: none;
+    cursor: pointer;
+}
+
+.active path {
+    cursor: pointer;
+    transition: 0.3s;
+    fill: #E55858;
+    stroke: none;
+}

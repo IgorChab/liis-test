@@ -1,0 +1,31 @@
+.container {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #424242;
+}
+
+.errColor {
+    color: #EB1717;
+}
+
+.err {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.label {
+    margin-bottom: 7px;
+}
+
+.container input {
+    border: 1px solid #C9CACC;
+    border-radius: 4px;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}

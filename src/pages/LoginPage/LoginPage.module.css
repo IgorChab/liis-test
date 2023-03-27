@@ -1,0 +1,16 @@
+.picture {
+    width: 100vw;
+    height: 100vh;
+    filter: blur(10px) opacity(0.6);
+    background-image: url('../../assets/loginBackground.png');
+}
+
+.container {
+    inset: 0;
+    z-index: 20;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
