@@ -4,7 +4,6 @@ import { getHotels } from '../axios'
 import { getHotelError, getHotelSuccess } from './slices/hotelSlice'
 
 function* workFetchHotels(action) {
-    console.log(action)
     try {
         const response = yield call(() => getHotels(action.payload))
         if(response.data.length === 0) {
